@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.ottamen</groupId>
     <artifactId>cantina_api</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>cantina_api</name>
     <description>cantina_api</description>
     <properties>

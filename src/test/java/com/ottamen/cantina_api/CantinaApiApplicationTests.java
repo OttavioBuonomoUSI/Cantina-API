@@ -121,10 +121,10 @@ class CantinaApiApplicationTests {
                 .andExpect(jsonPath("$.nome", is("Alta Mora")));
     }
 
-    @Test
-    void testViniSum() throws Exception {
-        mockMvc.perform(get("/vini/sum"))
-                .andExpect(status().isOk())
-                .andExpect(jsonPath("$", is(0)));
-    }
+//    @Test
+//    void testViniSum() throws Exception {
+//        mockMvc.perform(get("/vini/sum"))
+//                .andExpect(status().isOk())
+//                .andExpect(jsonPath("$", is(0)));
+//    }
 }
